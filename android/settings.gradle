@@ -1,0 +1,3 @@
+rootProject.name = 'WidgetExample2'
+
+include ':app'
