@@ -45,7 +45,7 @@ public class MainApplication extends Application implements ReactApplication {
     SoLoader.init(this, /* native exopackage */ false);
 
     RewardsModule rewardsModule = new RewardsModule(this);
-    rewardsModule.init("239")
-      .onInitializationFinished(() -> rewardsModule.show("top_section_3"));
+    rewardsModule.init("241")
+      .onInitializationFinished(() -> rewardsModule.show("main_section"));
   }
 }
